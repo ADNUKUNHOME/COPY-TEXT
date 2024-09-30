@@ -25,17 +25,36 @@ h1
 {
     color: black;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 #textarea 
 {
     width: 100%;
     height: 240px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     background: transparent;
     outline: none;
     resize: none;
-    border: 1px solid black;
+    border: 3px solid black;
+}
+
+.copy-btn
+{
+    background-color: rgb(59, 109, 247);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copy-btn:hover
+{
+    background-color: gray;
+    color: #f10c0c;
 }
 
