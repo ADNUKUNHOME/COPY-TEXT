@@ -10,3 +10,13 @@ body
     justify-content: center;
 }
 
+.container
+{
+    width: 370px;
+    height: 500px;
+    padding: 25px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(83, 87, 95, 0.25);
+    justify-items: center;
+}
