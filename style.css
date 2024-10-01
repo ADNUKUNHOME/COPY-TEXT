@@ -70,6 +70,11 @@ span.copied
     text-align: center;
 }
 
+span.bounce-effect
+{
+    animation: bounceIn 0.8 linear;
+}
+
 @keyframes bounceIn {
     0%{
         opacity: 0;
